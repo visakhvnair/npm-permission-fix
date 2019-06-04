@@ -37,3 +37,14 @@ else
 	echo -e "#########################################\e[0m";
 	exit
 fi 
+
+npm install -g jshint
+if [ $? -eq 0 ]
+then
+ echo -e "  \e[40m\e[92mSuccessfully tested global installation\e[0m"
+else
+  echo -e " \e[41mCannot fix the issue \e[0m"
+fi
+
+
+
